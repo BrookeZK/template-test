@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Shape Tracker</title>
+</head>
+<body>
+  <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+    Tooltip on top
+  </button>
+  <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+    Tooltip on right
+  </button>
+  <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+    Tooltip on bottom
+  </button>
+  <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+    Tooltip on left
+  </button>
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown button
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+  </div>
+  <h3>Enter three lengths to determine if they can make a triangle.</h3>
+  <form id="triangle-checker-form">
+    <label for="length1">Enter a number:</label>
+    <input id="length1" type="number">
+    <label for="length2">Enter a number:</label>
+    <input id="length2" type="number">
+    <label for="length3">Enter a number:</label>
+    <input id="length3" type="number">
+    <button type="submit">Submit</button>
+  </form>
+  <div id="response"></div>
+</body>
+</html>
